@@ -5,7 +5,7 @@
   "main": "lib",
   "browser": "./index.js",
   "scripts": {
-    "start": "node ./lib/index.js",
+    "start": "node ./lib/index.js --dev",
     "aws": "mongo flush-mongo.js && NODE_ENV=production node ./lib/index.js --aws",
     "optimize": "node ./lib/index.js optimize"
   },
