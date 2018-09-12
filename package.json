@@ -9,6 +9,22 @@
     "aws": "mongo flush-mongo.js && NODE_ENV=production node ./lib/index.js --aws",
     "optimize": "node ./lib/index.js optimize"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digitalbazaar/bedrock-ledger-test-operation-generator"
+  },
+  "keywords": [
+    "bedrock"
+  ],
+  "author": {
+    "name": "Digital Bazaar, Inc.",
+    "email": "support@digitalbazaar.com",
+    "url": "http://digitalbazaar.com"
+  },
+  "bugs": {
+    "url": "https://github.com/digitalbazaar/bedrock-ledger-test-operation-generator/issues"
+  },
+  "homepage": "https://github.com/digitalbazaar/bedrock-ledger-test-operation-generator",
   "dependencies": {
     "angular-material-data-table": "^0.10.10",
     "async": "^2.5.0",
