@@ -34,7 +34,7 @@
     "bedrock-angular": "^4.0.0",
     "bedrock-angular-material": "^1.0.2",
     "bedrock-aws": "digitalbazaar/bedrock-aws#implementation",
-    "bedrock-docs": "^2.1.1",
+    "bedrock-docs": "^3.0.0",
     "bedrock-express": "^2.0.6",
     "bedrock-jobs": "^2.0.3",
     "bedrock-ledger-context": "^8.0.0",
