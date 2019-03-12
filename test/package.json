@@ -1,0 +1,12 @@
+{
+  "name": "bedrock-ledger-test-operation-generator-test",
+  "version": "0.0.1-0",
+  "private": true,
+  "scripts": {
+    "test": "redis-cli flushall && node --preserve-symlinks test test --framework mocha"
+  },
+  "dependencies": {
+    "apisauce": "^1.0.2",
+    "bedrock-test": "^2.1.0"
+  }
+}

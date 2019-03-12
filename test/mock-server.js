@@ -5,15 +5,12 @@
 
 const {asyncHandler} = require('bedrock-express');
 const bedrock = require('bedrock');
-const {config} = bedrock;
 
+// per worker operation counter
+let operationCounter = 0;
 bedrock.events.on('bedrock-express.configure.routes', app => {
-  const {routes} = config['ledger-test-operation-generator'];
-
-  app.post(routes.targets, asyncHandler(async (req, res) => {
-    await bedrock.events.emit(
-      'bedrock-ledger-test-operation-generation.add-targets',
-      req.body);
+  app.post('/mockOperationEndpoint', asyncHandler(async (req, res) => {
+    console.log('operations received', ++operationCounter);
     res.status(204).end();
   }));
 });
