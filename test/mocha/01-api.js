@@ -23,7 +23,7 @@ describe('operation generator API', () => {
     });
   });
   it('works', async () => {
-    await api.post('/targets', {agents: [{
+    await api.post('/targets', {targets: [{
       endpoint: mockOperationEndpoint,
       operationsPerSecond: 50,
       targetNode: 'https://example.com/foo',
