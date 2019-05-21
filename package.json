@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node generator.js --dev",
     "aws": "mongo flush-mongo.js && NODE_ENV=production node generator.js --aws",
+    "baremetal": "mongo flush-mongo.js && NODE_ENV=production node generator.js --baremetal",
     "optimize": "node ./lib/index.js optimize"
   },
   "repository": {
