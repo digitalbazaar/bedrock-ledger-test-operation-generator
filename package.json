@@ -47,7 +47,7 @@
     "cors": "^2.8.4",
     "request": "^2.83.0",
     "uuid-random": "^1.0.6",
-    "workerpool": "^2.3.0"
+    "workerpool": "^3.1.2"
   },
   "bedrock": {
     "browserDependencies": [
