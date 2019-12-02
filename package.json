@@ -41,6 +41,7 @@
     "bedrock-security-context": "^3.0.0",
     "bedrock-server": "^2.4.0",
     "bedrock-validation": "^4.0.0",
+    "bedrock-veres-one-context": "^10.0.0",
     "cors": "^2.8.4",
     "request": "^2.83.0",
     "workerpool": "^3.1.2"
